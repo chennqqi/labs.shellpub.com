@@ -3,17 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/mos/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/netjsonconfig/</loc>
+    <lastmod>2018-01-14T14:28:40+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/gci/</loc>
+    <lastmod>2018-01-13T10:29:23+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/404/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/blogging/</loc>
+    <lastmod>2018-01-13T10:29:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2018-01-13T10:29:23+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/django/</loc>
+    <lastmod>2018-01-14T14:28:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/electronics/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/esp32/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/google-code-in/</loc>
+    <lastmod>2018-01-14T14:28:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/hsvs/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/iot/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/mongoose-os/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/openwisp/</loc>
+    <lastmod>2018-01-14T14:28:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2018-01-14T14:28:40+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2018-01-14T14:28:40+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2018-01-28T18:59:43+05:30</lastmod>
     <priority>0</priority>
   </url>
   

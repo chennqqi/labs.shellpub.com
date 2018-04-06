@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on UtkarshVerma&#39;s Site</title>
+    <title>Categories on 河马实验室</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on UtkarshVerma&#39;s Site</description>
+    <description>Recent content in Categories on 河马实验室</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 13 Jan 2018 10:29:23 +0530</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blogging</title>
+      <link>/categories/blogging/</link>
+      <pubDate>Sat, 13 Jan 2018 10:29:23 +0530</pubDate>
+      
+      <guid>/categories/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Electronics</title>
+      <link>/categories/electronics/</link>
+      <pubDate>Sun, 28 Jan 2018 18:59:43 +0530</pubDate>
+      
+      <guid>/categories/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>/categories/programming/</link>
+      <pubDate>Sun, 14 Jan 2018 14:28:40 +0530</pubDate>
+      
+      <guid>/categories/programming/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
