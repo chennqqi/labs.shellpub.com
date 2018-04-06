@@ -1,4 +1,5 @@
 <div class="8u 12u(mobile)">
+		{{ if .Site.Data.footer.content.sections }}
     <section>
         {{ with index .Site.Data.footer.content.sections 0 }}
         <header>
@@ -15,4 +16,5 @@
             {{ end }}
         </ul>
     </section>
+    {{ end }}
 </div>

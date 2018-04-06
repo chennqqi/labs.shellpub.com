@@ -11,3 +11,5 @@ theme = "dopetrope"
 [params.settings]
     googleanalytics = "UA-113904582-1"
     disqus = "hugo-dopetrope"
+    
+ignoreFiles = [ "\\.bak$", "\\.orgin$" ] 

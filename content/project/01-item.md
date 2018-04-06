@@ -1,7 +1,7 @@
 +++
 description = "HTTP全流量可视化系统"
 thumbnail = "https://s1.ax1x.com/2018/04/02/CSA2sf.png"
-image = "https://s1.ax1x.com/2018/04/02/CSA2sf.png"
+image = "https://s1.ax1x.com/2018/04/06/CCUsnx.jpg"
 title = "HSVS"
 slug = "hsvs"
 author = "John Smith"
@@ -14,4 +14,4 @@ HTTP全流量分析目前已经在各大厂里比较普及了(BAT，携程，网
 
 本项目名称为HSVS(HTTP STREAM VISUALIZATION SYSTEM), HTTP流量可视化系统。 本项目名称为HSVS，并没有直接称呼为流量分析系统；目的是将分析部分开放出来，让使用者使用自己的方法，自由的进行分析。
 
-[Go](http://labs.shellpub.com/hsvs)
+[查看详细](http://labs.shellpub.com/hsvs)

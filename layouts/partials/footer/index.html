@@ -3,13 +3,16 @@
     <section id="footer" class="container">
         <div class="row">
             {{ partial "footer/recentposts.html" . }}
+            {{ if .Site.Data.footer.content.sections }}
             <div class="4u 12u(mobile)">
                 <section>
                     {{ with index .Site.Data.footer.content.sections 1 }}
                     <header>
                         <h2>{{ .title }}</h2>
                     </header>
+                    {{ if .imagelink }}
                     <a href="{{ .imagelink }}" class="image featured"><img src="{{ .Site.BaseURL }}{{ .imageurl }}" alt="" /></a>
+                    {{ end }}
                     <p>
                         {{ .description }}
                     </p>
@@ -19,8 +22,10 @@
                     {{ end }}
                 </section>
             </div>
+            {{ end }}
         </div>
         <div id="contact" class="row">
+            {{ if .Site.Data.footer.content.sections }}
             <div class="4u 12u(mobile)">
                 <section>
                     <header>
@@ -45,11 +50,14 @@
                     </ul>
                 </section>
             </div>
+            {{ end }}
             <div class="4u 12u(mobile)">
                 <section>
+                		{{ if .Site.Data.footer.content.sections }}
                     <header>
                         <h2>{{ (index .Site.Data.footer.content.sections 4).title }}</h2>
                     </header>
+                    {{ end }}
                     {{ partial "footer/social.html" . }}
                     {{ partial "footer/contact.html" . }}
                 </section>
