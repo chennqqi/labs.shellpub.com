@@ -1,0 +1,12 @@
+[submodule "themes/introduction"]
+	path = themes/introduction
+	url = https://github.com/hivickylai/hugo-theme-introduction.git
+[submodule "themes/dream-plus"]
+	path = themes/dream-plus
+	url = https://github.com/UtkarshVerma/hugo-dream-plus
+[submodule "dopetrope"]
+	path = dopetrope
+	url = https://github.com/curttimson/hugo-theme-dopetrope
+[submodule "themes/dopetrope"]
+	path = themes/dopetrope
+	url = https://github.com/curttimson/hugo-theme-dopetrope

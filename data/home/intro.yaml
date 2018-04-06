@@ -1,0 +1,12 @@
+sections:
+- icon: 'fa-clock-o'
+  title: '专注'
+  description: '专注WEB安全研究与产品开发.'
+
+- icon: 'fa-tv '
+  title: '求真'
+  description: '实事求是，把复杂的问题化简，用简单的方法解决问题.'
+
+- icon: 'fa-flash'
+  title: '高效'
+  description: '优秀的产品一定要有良好的性能给用户带来良好的体验.'

@@ -1,0 +1,13 @@
+languageCode = "zh-cn"
+title = "河马实验室"
+baseURL = ""
+theme = "dopetrope"
+
+[params.portfolio]
+    title = "项目"
+    foldername = "project"
+    findoutmoretext = "开始"
+
+[params.settings]
+    googleanalytics = "UA-113904582-1"
+    disqus = "hugo-dopetrope"
