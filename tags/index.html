@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+All Tags
+</title>
+  
+	
+
+
+
+	
+
+<script type="text/javascript">
+	var enabledPost=true 
+	var colorBG= false  
+    var enabledDimmer =  true 
+    var shToken=""
+    var shDomains=""
+    
+    var isMobile = ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )
+	console.log("The client device is a "+(isMobile?"mobile":"PC")+".")
+		
+</script>
+
+  
+
+
+  
+  <meta name="author" content="UtkarshVerma" />
+  <meta name="description" content="Just a blog for hosting random programming stuff." />
+
+
+
+<meta name="generator" content="Hugo 0.37.1" />
+
+
+<link rel="shortcut icon" href="/img/defaultFav.ico">
+
+
+<link rel="canonical" href="/tags/" />
+<link rel="alternative" href="/index.xml" title="UtkarshVerma&#39;s Site" type="application/atom+xml" />
+
+<link href="https://cdn.bootcss.com/semantic-ui/2.2.14/semantic.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+  <div id="bg"><script type = "text/javascript">
+if(colorBG) {
+    var dreamBGGradients = [
+        [],
+        ['#40e0d0', '#ff8c00', '#ff0080'], 
+        ['#3e5151', '#decba4'], 
+        ['#11998e', '#38ef7d'], 
+        ['#108dc7', '#ef8e38'], 
+        ['#fc5c7d', '#6a82fb'], 
+        ['#fc466b', '#3f5efb'], 
+        ['#c94b4b', '#4b134f'], 
+        ['#23074d', '#cc5333'], 
+    ]
+    var dreamBody = $('body')
+    var dreamFront = $('.flip-container .front')
+    var dreamBack = $('.flip-container .back')
+    
+    var dreamPrevBgIndex = 0
+	var dreamBodyBgSwitchIndex = 0
+    var dreamBodyBgSwitch = []
+    
+    var dreamBg = dreamBGGradients[getRandomInt(0, dreamBGGradients.length)]
+    dreamBodyBgSwitch.push(dreamBg)
+    setBackground(dreamFront, dreamBg)
+
+    setBackground(dreamBody, dreamBg)
+
+    dreamBg = dreamBGGradients[getRandomInt(0, dreamBGGradients.length)]
+    dreamBodyBgSwitch.push(dreamBg)
+    setBackground(dreamBack, dreamBg)
+    
+    function connect(arr) {
+        var str = ''
+            for (var i = 0; i < arr.length; i++) {
+                if (i !== arr.length - 1) {
+                    str += arr[i] + ', '
+                } else {
+                    str += arr[i]
+                }
+            }
+        return str
+    }
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min)
+        max = Math.floor(max)
+        var random
+        while (1) {
+            random = Math.floor(Math.random() * (max - min)) + min
+            if (random !== dreamPrevBgIndex) {
+                dreamPrevBgIndex = random
+                break
+            }
+        }
+    	return random
+    }
+    function setBackground(target, gradient) {
+        target.css({
+        background: gradient[0]
+        })
+        target.css({
+        background: 'linear-gradient(to right, ' + connect(gradient) + ')'
+        })
+    }
+}
+else {
+    var blurEff =  0.5 
+	if( false )
+	{	
+    	var images = ""
+    	var randomNumber = Math.floor(Math.random() * images.length)
+    	bgImage = 'url(' + images[randomNumber] + ')'
+    }
+    else
+    	bgImage = 'url(' + "https://raw.githubusercontent.com/UtkarshVerma/hugo-dream-plus/master/static/img/bg1.jpeg" + ')'
+    console.log("Current background: " + bgImage.substring(bgImage.indexOf("bg"),bgImage.length -1) )
+    var target = document.getElementById('bg')
+    target.setAttribute("style", "position:absolute; width:100%; height:100%; background:" + bgImage + "!important; filter:" + "blur(" + blurEff + "px) !important; background-size:cover !important;")
+}	
+</script>
+</div>
+  <div class="pusher" style="position: relative; overflow-y:auto; overflow-x: hidden; background-color: transparent !important">
+  <div class="flip-container">
+    <div class="flipper">
+      <section class="front">
+        
+<nav class="ui top secondary menu" style="overflow-x: auto; background-color: #00000066;">
+  <div id="surrico" class="item">
+    <i id="ico" class="inverted big link bullseye icon dream-flip-toggle" title="About Me"></i>
+  </div>
+  <div class="item">
+    <a href="/"><i id="ico" class="inverted big link home icon" title="Home"></i></a>
+  </div>
+  
+
+  <div class="item">
+    <a href="/categories">
+      <i id="ico" class="inverted big link cubes icon" title="All Categories"></i>
+    </a>
+  </div>
+
+</nav>
+ 
+<div class="ui centered grid">
+  <div class="sixteen wide mobile fifteen wide tablet four wide computer column">
+
+    <section class="ui top attached center aligned inverted segment">
+  <div class="ui small circular image">
+    
+    <img src="/images/avatar.jpg">
+    
+  </div>
+  <h3 class="ui header">UtkarshVerma<div class="sub header" style="color: white;">A keen maker, programmer and an Instructables author.</div>
+  </h3>
+    
+	<a id="tag-category-pop" class="ui red right corner label">		
+	<i class="pointing down icon" title="Click this to pop tags and categories"></i>		
+	</a>
+     
+</section>
+
+
+	
+
+
+
+	
+
+
+
+<section class="ui bottom attached center aligned inverted segment">
+    
+    <p>© 2018 UtkarshVerma&#39;s Site</p>
+        
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/UtkarshVerma/hugo-dream-plus" target="_blank">Dream Plus</a> theme.</p>
+</section>
+
+
+  </div>
+  <div class="sixteen wide mobile fifteen wide tablet eleven wide computer column post-list">
+    <div class="ui inverted segment">
+      <h2 class="ui header">
+        All Tags<hr />
+   
+      </h2>
+
+      
+      
+
+    </div>
+  </div>
+</div>
+
+      </section>   
+      <section class="back">
+        <nav class="ui top secondary menu" style="background-color: #00000066;">
+  <div class="item">
+    <i id="ico" class="inverted big link bullseye icon dream-flip-toggle" title="About Me"></i>
+  </div>
+    
+  <div class="item">
+    <a href="https://github.com/UtkarshVerma" target="_blank">
+      <i id="ico" class="inverted big github icon" title="GitHub"></i>
+    </a>
+  </div>
+  
+  
+  <div class="item">
+    <a href="mailto:utkarshverma@protonmail.com">
+      <i id="ico" class="inverted big mail icon" title="Email"></i>
+    </a>
+  </div>
+  
+  
+  <div class="item">
+    <a href="https://twitter.com/UtkarshVerma_" target="_blank">
+      <i id="ico" class="inverted big twitter icon" title="Twitter"></i>
+    </a>
+  </div>
+  
+  
+  
+  <div class="item">
+    <a href="https://medium.com/@UtkarshVerma_" target="_blank">
+      <i id="ico" class="inverted big medium icon" title="Medium"></i>
+    </a>
+  </div>
+  
+
+  
+  
+  <div class="item">
+    <a href="https://www.stackoverflow.com/users/9271608/utkarsh-verma" target="_blank">
+      <i id="ico" class="inverted big stack overflow icon" title="stackoverflow"></i>
+    </a>
+  </div>
+  
+  
+
+  
+</nav>
+
+<div class="ui centered grid about" style="height: 100vh;">
+  <div id="abt" class="sixteen wide mobile fifteen wide tablet fifteen wide computer column about">
+    <section class="ui stacked segments">
+	<header class="ui inverted segment">
+    <h2 class="ui header">
+        So, Who Am I?
+    </h2>
+</header>
+<article id = "abt" class="ui inverted segment" >
+    <hr />
+
+<p>title: &ldquo;About&rdquo;
+date: 2018-04-05T18:35:02+08:00</p>
+
+<h2 id="draft-true">draft: true</h2>
+
+</article>
+
+    
+    </section>
+  </div>
+</div>
+
+      </section>
+    </div>
+  </div>
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+<script type="text/javascript" src="/js/semantic.min.js"></script>
+<script type="text/javascript" src="/js/site.js"></script>
+
+  <script src="/js/twemoji.min.js"></script>
+<script type="text/javascript">
+(function init(){
+    console.log("Twemoji up and making stuff colourful!");
+    twemoji.parse(document.getElementById("abt"));      
+    twemoji.parse(document.getElementById("twemoji"));                
+})()
+</script>
+
+  
+  </div>
+  <body>
+  <div class="ui sidebar inverted vertical menu" style="overflow: hidden !important;">
+<section class="ui top attached center aligned inverted segment">
+  <div class="ui small circular image">
+    
+    <img src="/images/avatar.jpg">
+    
+  </div>
+  <h3 class="ui header">UtkarshVerma<div class="sub header" style="color: white;">A keen maker, programmer and an Instructables author.</div>
+  </h3>
+    
+	<a id="tag-category-pop" class="ui red right corner label">		
+	<i class="pointing down icon" title="Click this to pop tags and categories"></i>		
+	</a>
+     
+</section>
+
+
+	
+
+
+
+	
+
+
+
+<section class="ui bottom attached center aligned inverted segment">
+    
+    <p>© 2018 UtkarshVerma&#39;s Site</p>
+        
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with <a href="https://github.com/UtkarshVerma/hugo-dream-plus" target="_blank">Dream Plus</a> theme.</p>
+</section>
+  </div>
+</body>
+
+</body>
+</html>
+
