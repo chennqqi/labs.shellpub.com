@@ -107,6 +107,10 @@
   </url>
   
   <url>
+    <loc>/project/phonelocation/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2018-01-28T18:59:43+05:30</lastmod>
     <priority>0</priority>

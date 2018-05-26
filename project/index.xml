@@ -22,5 +22,17 @@
 查看详细</description>
     </item>
     
+    <item>
+      <title>phonelocation</title>
+      <link>/project/phonelocation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/project/phonelocation/</guid>
+      <description>识别原理
+我国手机号共有11位，由工信部统一管理
+ 前三位：网络识别号， 识别运营商； 中间四位：地区编码； 后四位为用户编号，表示用户身份；  项目源码 https://github.com/chennqqi/phonelocation
+查看详细</description>
+    </item>
+    
   </channel>
 </rss>
