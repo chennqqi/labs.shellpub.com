@@ -4,7 +4,7 @@ thumbnail = "https://s1.ax1x.com/2018/04/02/CSA2sf.png"
 image = "https://s1.ax1x.com/2018/04/06/CCUsnx.jpg"
 title = "HSVS"
 slug = "hsvs"
-author = "John Smith"
+author = "q@shellpub.com"
 draft = false
 +++
 
