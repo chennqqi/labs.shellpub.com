@@ -1,6 +1,6 @@
 languageCode = "zh-cn"
 title = "河马实验室"
-baseURL = ""
+baseURL = "/"
 theme = "dopetrope"
 
 [params.portfolio]
